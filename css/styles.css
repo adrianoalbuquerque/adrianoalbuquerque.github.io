@@ -42,8 +42,10 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 30, 48, 243;
-  --bs-secondary-rgb: 226, 30, 128;
+  /* --bs-primary-rgb: 30, 48, 243; */
+  /* --bs-secondary-rgb: 226, 30, 128; */
+  --bs-primary-rgb: 12, 27, 193;
+  --bs-secondary-rgb: 66, 165, 106;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -11556,11 +11558,13 @@ html {
 
 .bg-gradient-primary-to-secondary {
   background: #1e30f3;
-  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+  /* background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%); */
+  background: linear-gradient(135deg, #0c1bc1 0%, #21b15b 100%);
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  /* background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%); */
+  background: -webkit-linear-gradient(315deg, #0c1bc1 0%, #42a56a 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
