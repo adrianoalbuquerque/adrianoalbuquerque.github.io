@@ -63,7 +63,7 @@
                                     </div>
                                     <!-- Phone number input-->
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" id="phone" name="phone" type="tel" placeholder="(99) 9 9999-7890" data-sb-validations="required" />
+                                        <input class="form-control" id="phone" name="phone" type="tel" placeholder="(99) 9 9999-7890" oninput="this.value = mascaraTelefone(this.value);" maxlength="15" data-sb-validations="required" />
                                         <label for="phone">Telefone</label>
                                         <div class="invalid-feedback" data-sb-feedback="phone:required">Um número de telefone é obrigatório.</div>
                                     </div>

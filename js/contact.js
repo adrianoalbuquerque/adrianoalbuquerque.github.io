@@ -39,6 +39,15 @@ document.getElementById("submitButton").addEventListener("click", function(event
       });
 });
 
+// ------------- Máscara telefone -------------- //
+
+function mascaraTelefone(phone) {
+    phone = phone.replace(/\D/g, ''); // Remove caracteres não numéricos
+    phone = phone.replace(/^(\d{2})(\d)/g, '($1) $2'); // Adiciona parênteses em volta dos dois primeiros dígitos
+    phone = phone.replace(/(\d)(\d{4})$/, '$1-$2'); // Adiciona um hífen entre o quarto e o quinto dígitos
+    return phone;
+}
+
 // ------------- Validation Form -------------- //
 
 (()=>{
