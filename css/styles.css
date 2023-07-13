@@ -225,6 +225,11 @@ small, .small {
   font-size: 0.875em;
 }
 
+.vermais {
+  font-size: 0.875em;
+  text-decoration: none;
+}
+
 mark, .mark {
   padding: 0.1875em;
   background-color: var(--bs-highlight-bg);
@@ -11741,4 +11746,8 @@ html {
   .logo-name {
     display: none;
   }
+}
+
+.pcg, .msc, .udemy {
+  display: none;
 }

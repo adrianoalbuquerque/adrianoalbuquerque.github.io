@@ -51,7 +51,7 @@
                                 <h2 class="text-primary fw-bolder mb-0">Experiência</h2>
                                 <!-- Download resume button-->
                                 <!-- Note: Set the link href target to a PDF file within your project-->
-                                <button onclick="downloadPDF()" class="btn btn-primary px-4 py-3">
+                                <button onclick="downloadPDF()" class="btn btn-primary px-4 py-3" style="display: none;">
                                     <div class="d-inline-block bi bi-download me-2"></div>
                                     Baixar Resumo
                                 </button>
@@ -70,9 +70,9 @@
                                         </div>
                                         <div class="col-lg-8">
                                             <div>Como desenvolvedor frontend na Procenge, tenho o privilégio de fazer parte da equipe de Arquitetura e contribuir para o desenvolvimento do ERP Pirâmide 360. Utilizando tecnologias de ponta como Angular e PrimeNG, tenho a responsabilidade de criar interfaces intuitivas, atraentes e funcionais para o sistema.</div><br>
-                                            <div>Como parte da equipe de Arquitetura, sou envolvido em decisões importantes relacionadas à arquitetura de software, escolha de tecnologias e definição de padrões de desenvolvimento. Trabalhamos em estreita colaboração com designers, desenvolvedores backend e analistas de negócios para garantir que o sistema atenda às necessidades e expectativas dos clientes.</div><br>
-                                            <div>Uma das minhas tarefas-chave é a criação da biblioteca de componentes Gizé. Com base no Angular 14 e outras tecnologias relevantes, estou desenvolvendo uma coleção de componentes reutilizáveis e altamente personalizáveis. Essa biblioteca tem como objetivo promover a consistência, a padronização e a eficiência no desenvolvimento de aplicações, permitindo que a equipe desenvolva soluções de forma mais rápida e eficaz.</div>
-
+                                            <a id="pcg" class="vermais" href="#!" onclick="mostrarDivs('pcg')">Ver mais</a>
+                                            <div class="pcg">Como parte da equipe de Arquitetura, sou envolvido em decisões importantes relacionadas à arquitetura de software, escolha de tecnologias e definição de padrões de desenvolvimento. Trabalhamos em estreita colaboração com designers, desenvolvedores backend e analistas de negócios para garantir que o sistema atenda às necessidades e expectativas dos clientes.</div><br>
+                                            <div class="pcg">Uma das minhas tarefas-chave é a criação da biblioteca de componentes Gizé. Com base no Angular 14 e outras tecnologias relevantes, estou desenvolvendo uma coleção de componentes reutilizáveis e altamente personalizáveis. Essa biblioteca tem como objetivo promover a consistência, a padronização e a eficiência no desenvolvimento de aplicações, permitindo que a equipe desenvolva soluções de forma mais rápida e eficaz.</div>
                                         </div>
                                     </div>
                                 </div>
@@ -91,8 +91,9 @@
                                         </div>
                                         <div class="col-lg-8">
                                             <div>Como Frontend na Marques Consult, tive a oportunidade de desempenhar um papel fundamental no desenvolvimento de projetos inovadores. Utilizei as tecnologias Angular e Angular Material para criar o eSus Analytics, um sistema de análise de dados para o setor de saúde. Além disso, utilizei React Native e Expo para desenvolver o TFD, um aplicativo móvel que proporcionou uma experiência intuitiva aos usuários.</div><br>
-                                            <div>Além do desenvolvimento de software, também fui responsável pela criação de protótipos de baixa e alta fidelidade, permitindo uma visualização prévia e refinamento dos projetos. Trabalhando em colaboração com equipes multidisciplinares, transformei requisitos e especificações em interfaces elegantes e funcionais.</div><br>
-                                            <div>Durante meu tempo na Marques Consult, pude aprimorar minhas habilidades técnicas, adquirindo proficiência nas tecnologias mencionadas. Também desenvolvi uma compreensão mais profunda do ciclo de desenvolvimento de software e a importância da usabilidade e experiência do usuário.</div><br>
+                                            <a id="msc" class="vermais" href="#!" onclick="mostrarDivs('msc')">Ver mais</a>
+                                            <div class="msc">Além do desenvolvimento de software, também fui responsável pela criação de protótipos de baixa e alta fidelidade, permitindo uma visualização prévia e refinamento dos projetos. Trabalhando em colaboração com equipes multidisciplinares, transformei requisitos e especificações em interfaces elegantes e funcionais.</div><br>
+                                            <div class="msc">Durante meu tempo na Marques Consult, pude aprimorar minhas habilidades técnicas, adquirindo proficiência nas tecnologias mencionadas. Também desenvolvi uma compreensão mais profunda do ciclo de desenvolvimento de software e a importância da usabilidade e experiência do usuário.</div><br>
                                         </div>
                                     </div>
                                 </div>
@@ -164,8 +165,13 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- <a id="udemy" class="vermais" href="#!" onclick="mostrarDivs('udemy')">Ver mais</a> -->
+                            <button id="udemy" onclick="mostrarDivs('udemy')" class="btn btn-outline-primary px-4 py-3">
+                                <!-- <div class="d-inline-block bi bi-download me-2"></div> -->
+                                Cursos de Extensão
+                            </button>
                             <!-- Education Card 4-->
-                            <div class="card shadow border-0 rounded-4 mb-5">
+                            <div class="udemy card shadow border-0 rounded-4 mb-5">
                                 <div class="card-body p-5">
                                     <div class="row align-items-center gx-5">
                                         <div class="col text-center text-lg-start mb-4 mb-lg-0">
@@ -186,7 +192,7 @@
                                 </div>
                             </div>
                             <!-- Education Card 5-->
-                            <div class="card shadow border-0 rounded-4 mb-5">
+                            <div class="udemy card shadow border-0 rounded-4 mb-5">
                                 <div class="card-body p-5">
                                     <div class="row align-items-center gx-5">
                                         <div class="col text-center text-lg-start mb-4 mb-lg-0">
@@ -207,7 +213,7 @@
                                 </div>
                             </div>
                             <!-- Education Card 6-->
-                            <div class="card shadow border-0 rounded-4 mb-5">
+                            <div class="udemy card shadow border-0 rounded-4 mb-5">
                                 <div class="card-body p-5">
                                     <div class="row align-items-center gx-5">
                                         <div class="col text-center text-lg-start mb-4 mb-lg-0">
@@ -228,7 +234,7 @@
                                 </div>
                             </div>
                             <!-- Education Card 7-->
-                            <div class="card shadow border-0 rounded-4 mb-5">
+                            <div class="udemy card shadow border-0 rounded-4 mb-5">
                                 <div class="card-body p-5">
                                     <div class="row align-items-center gx-5">
                                         <div class="col text-center text-lg-start mb-4 mb-lg-0">

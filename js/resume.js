@@ -13,3 +13,13 @@ function downloadPDF() {
     // Donwload do conteúdo da página
     html2pdf().set(options).from(content).save();
 }
+
+function mostrarDivs(className) {
+    var divs = document.getElementsByClassName(className);
+    for (var i = 0; i < divs.length; i++) {
+      divs[i].style.display = 'block';
+    }
+    
+    var verMais = document.getElementById(className);
+    verMais.style.display = 'none';
+  }
