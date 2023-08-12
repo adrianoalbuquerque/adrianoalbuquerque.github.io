@@ -228,6 +228,7 @@ small, .small {
 .vermais {
   font-size: 0.875em;
   text-decoration: none;
+  cursor: pointer;
 }
 
 mark, .mark {
@@ -11748,6 +11749,6 @@ html {
   }
 }
 
-.pcg, .msc, .udemy {
+.pcg, .msc, .udemy, .udemy_50, .udemy_UI {
   display: none;
 }
