@@ -8,7 +8,7 @@ document.getElementById("submitButton").addEventListener("click", function(event
     var message = document.getElementById("message").value;
 
     // Enviar o email usando o FormSubmit
-    var formSubmitUrl = "https://formsubmit.co/ajax/adrianot.albuquerque@gmail.com";
+    var formSubmitUrl = "https://formsubmit.co/ajax/5c8df8a3080a13f90b4f560d2976c6fa";
     fetch(formSubmitUrl, {
       method: "POST",
       headers: {
