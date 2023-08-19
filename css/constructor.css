@@ -1,0 +1,89 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    /* background: #1f2231; */
+    background: #091d85;
+    color: white;
+    font-family: "brandon-grotesque", "Brandon Grotesque", "Source Sans Pro", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 24px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  main > div {
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  svg {
+    width: 50px;
+    height: auto;
+  }
+  
+  svg polygon {
+    /* fill: #1f2231; */
+    fill: #091d85;
+  }
+  
+  .crack {
+    position: relative;
+    z-index: 4;
+    margin-left: -50px;
+  }
+  
+  .crack polyline {
+    fill: none;
+    stroke: #F04F54;
+    stroke-width: 10px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 1649.099;
+    stroke-dashoffset: 1649.099;
+    animation: drawStroke 1500ms ease-out 500ms forwards;
+  }
+  
+  a {
+    display: block;
+    cursor: pointer;
+    font-weight: 500;
+    animation: pulseColor 1000ms linear 3100ms forwards;
+  }
+  
+  a:hover b {
+    color: #F04F54;
+  }
+  
+  a:focus b {
+    color: #43CB9D;
+  }
+  
+  @keyframes drawStroke {
+    0% { stroke-dashoffset: 1649.099; }
+    100% { stroke-dashoffset: 0; }
+  }
+  
+  @keyframes removeFill {
+    0% { fill: rgba(52, 52, 52, 1); }
+    100% { fill: rgba(52, 52, 52, 0); }
+  }
+  
+  @keyframes pulseColor {
+    0%, 50%, 100% { color: white; }
+    25%, 75% { color: #43CB9D; }
+  }
