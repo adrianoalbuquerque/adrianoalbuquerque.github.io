@@ -5,7 +5,7 @@ const anoAtual = dataAtual.getFullYear();
 const elementoNomeAno = document.getElementById("nomeAnoElement");
 
 // Atualizar o conteúdo do elemento com o valor do ano atual
-elementoNomeAno.textContent = `Adriano Albuquerqure ${anoAtual}`;
+elementoNomeAno.textContent = `Adriano Albuquerque ${anoAtual}`;
 
 // Função para rolar suavemente de volta ao topo
 function voltarAoTopo() {
