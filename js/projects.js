@@ -57,7 +57,7 @@ const projects = [
     A interface oferece suporte a <b>Markdown</b>, alternância de tema claro/escuro e animação de digitação, proporcionando uma experiência fluida e imersiva. 
     Projetada para integração com modelos de linguagem via <b>API REST</b> (ex.: Google Gemini), permitindo respostas inteligentes, explicações de código SAL e sugestões de boas práticas.`,
     image: "assets/gupta_gpt.png",
-    link: "https://guptagpt.s3-website-sa-east-1.amazonaws.com/"
+    link: "http://guptagpt.s3-website-sa-east-1.amazonaws.com/"
   }
 
 
