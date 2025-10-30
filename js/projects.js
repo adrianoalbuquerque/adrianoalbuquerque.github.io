@@ -49,7 +49,17 @@ const projects = [
     description: "Aplicação desenvolvida em <b>React</b> com configuração completa do <b>Webpack</b>, explorando loaders, plugins e ambientes de desenvolvimento e produção. O projeto demonstra <b>code splitting</b>, <b>otimização de performance</b> e uso do <b>Module Federation</b> para arquitetura de <b>Micro-frontends</b>. Resultado de um estudo prático sobre empacotamento e modularização de aplicações web modernas.",
     image: "assets/webpack_advanced.png",
     link: "http://app-webpack.s3-website-sa-east-1.amazonaws.com/"
+  },
+  {
+    title: "Gupta AI Assistant",
+    description: `Aplicação web que simula um assistente de IA voltado ao <b>OpenText Team Developer (Gupta)</b>. 
+    Desenvolvida com <b>HTML5</b>, <b>CSS3</b> e <b>JavaScript (ES6)</b>, utiliza <b>Webpack</b> para empacotamento e organização de módulos. 
+    A interface oferece suporte a <b>Markdown</b>, alternância de tema claro/escuro e animação de digitação, proporcionando uma experiência fluida e imersiva. 
+    Projetada para integração com modelos de linguagem via <b>API REST</b> (ex.: Google Gemini), permitindo respostas inteligentes, explicações de código SAL e sugestões de boas práticas.`,
+    image: "assets/gupta_gpt.png",
+    link: "https://guptagpt.s3-website-sa-east-1.amazonaws.com/"
   }
+
 
 ];
 
@@ -70,7 +80,7 @@ function renderProjects() {
               <p>${proj.description}</p>
             </div>
             <div class="d-flex align-items-center justify-content-center p-3">
-              <img class="img-fluid" src="${proj.image}" alt="${proj.title}" />
+              <img class="img-fluid" src="${proj.image}" alt="${proj.title}" style="border-radius: 4px" />
             </div>
           </div>
         </div>
