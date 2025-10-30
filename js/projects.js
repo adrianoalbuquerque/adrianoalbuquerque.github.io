@@ -11,15 +11,19 @@ const projects = [
     link: "http://adriano-albuquerque-instagram.s3-website-sa-east-1.amazonaws.com/"
   },
   {
-    title: "Jogo da Velha",
-    description: `Implementação do clássico jogo da velha utilizando <b>Angular 10</b> com <b></b>TypeScript</b>, 
-        <b>HTML5</b> e <b>SCSS</b>. A lógica do jogo é gerenciada diretamente no frontend, sem dependência de backend. 
-        A aplicação utiliza <b>Angular CLI</b> para organização de componentes e execução. A interação do usuário é 
-        tratada por meio de eventos e <b></b>manipulação do DOM</b>, atualizando dinamicamente o estado do tabuleiro. 
-        A detecção de vitória ou empate é realizada por meio de verificações lógicas nas combinações possíveis de linhas, 
-        colunas e diagonais.`,
-    image: "assets/jogo_da_velha.png",
-    link: "http://adriano-albuquerque-jogo-da-velha.s3-website.us-east-2.amazonaws.com/#"
+    title: "Webpack – Projeto de Micro-Frontends",
+    description: "Aplicação desenvolvida em <b>React</b> com configuração completa do <b>Webpack</b>, explorando loaders, plugins e ambientes de desenvolvimento e produção. O projeto demonstra <b>code splitting</b>, <b>otimização de performance</b> e uso do <b>Module Federation</b> para arquitetura de <b>Micro-frontends</b>. Resultado de um estudo prático sobre empacotamento e modularização de aplicações web modernas.",
+    image: "assets/webpack_advanced.png",
+    link: "http://app-webpack.s3-website-sa-east-1.amazonaws.com/"
+  },
+  {
+    title: "Gupta AI Assistant",
+    description: `Aplicação web que simula um assistente de IA voltado ao <b>OpenText Team Developer (Gupta)</b>. 
+    Desenvolvida com <b>HTML5</b>, <b>CSS3</b> e <b>JavaScript (ES6)</b>, utiliza <b>Webpack</b> para empacotamento e organização de módulos. 
+    A interface oferece suporte a <b>Markdown</b>, alternância de tema claro/escuro e animação de digitação, proporcionando uma experiência fluida e imersiva. 
+    Projetada para integração com modelos de linguagem via <b>API REST</b> (ex.: Google Gemini), permitindo respostas inteligentes, explicações de código SAL e sugestões de boas práticas.`,
+    image: "assets/gupta_gpt.png",
+    link: "http://guptagpt.s3-website-sa-east-1.amazonaws.com/"
   },
   {
     title: "Gerenciador Financeiro",
@@ -45,22 +49,16 @@ const projects = [
     link: "https://marvel-tic-tac-toe.vercel.app/"
   },
   {
-    title: "Webpack – Projeto de Micro-Frontends",
-    description: "Aplicação desenvolvida em <b>React</b> com configuração completa do <b>Webpack</b>, explorando loaders, plugins e ambientes de desenvolvimento e produção. O projeto demonstra <b>code splitting</b>, <b>otimização de performance</b> e uso do <b>Module Federation</b> para arquitetura de <b>Micro-frontends</b>. Resultado de um estudo prático sobre empacotamento e modularização de aplicações web modernas.",
-    image: "assets/webpack_advanced.png",
-    link: "http://app-webpack.s3-website-sa-east-1.amazonaws.com/"
-  },
-  {
-    title: "Gupta AI Assistant",
-    description: `Aplicação web que simula um assistente de IA voltado ao <b>OpenText Team Developer (Gupta)</b>. 
-    Desenvolvida com <b>HTML5</b>, <b>CSS3</b> e <b>JavaScript (ES6)</b>, utiliza <b>Webpack</b> para empacotamento e organização de módulos. 
-    A interface oferece suporte a <b>Markdown</b>, alternância de tema claro/escuro e animação de digitação, proporcionando uma experiência fluida e imersiva. 
-    Projetada para integração com modelos de linguagem via <b>API REST</b> (ex.: Google Gemini), permitindo respostas inteligentes, explicações de código SAL e sugestões de boas práticas.`,
-    image: "assets/gupta_gpt.png",
-    link: "http://guptagpt.s3-website-sa-east-1.amazonaws.com/"
+    title: "Jogo da Velha",
+    description: `Implementação do clássico jogo da velha utilizando <b>Angular 10</b> com <b></b>TypeScript</b>, 
+        <b>HTML5</b> e <b>SCSS</b>. A lógica do jogo é gerenciada diretamente no frontend, sem dependência de backend. 
+        A aplicação utiliza <b>Angular CLI</b> para organização de componentes e execução. A interação do usuário é 
+        tratada por meio de eventos e <b></b>manipulação do DOM</b>, atualizando dinamicamente o estado do tabuleiro. 
+        A detecção de vitória ou empate é realizada por meio de verificações lógicas nas combinações possíveis de linhas, 
+        colunas e diagonais.`,
+    image: "assets/jogo_da_velha.png",
+    link: "http://adriano-albuquerque-jogo-da-velha.s3-website.us-east-2.amazonaws.com/#"
   }
-
-
 ];
 
 function renderProjects() {
